@@ -1,0 +1,32 @@
+.statistics {
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgb(197, 199, 202);
+  box-shadow: 0 3px 7px #ccc;
+  width: 400px;
+
+  .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(55, 56, 58);
+    text-transform: uppercase;
+  }
+
+  .statlist {
+    display: flex;
+    margin: 30px auto;
+    width: 400px;
+
+    .item {
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      border: 1px solid rgb(197, 199, 202);
+      height: 70px;
+      width: 100%;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+}

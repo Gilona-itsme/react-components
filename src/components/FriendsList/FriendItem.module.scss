@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  margin: 5px auto;
+  width: 400px;
+  height: 80px;
+  border: 1px solid rgb(197, 199, 202);
+  box-shadow: 0 3px 7px #ccc;
+  border-radius: 10px;
+
+  .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    margin: auto 12px;
+  }
+
+  .avatar {
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .name {
+    font-weight: 700;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
